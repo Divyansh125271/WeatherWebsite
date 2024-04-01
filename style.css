@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 21, 21);
+    background-image: url(images/Blue\ Clouds\ Clipart\ Transparent\ PNG\ Hd\,\ Cartoon\ Blue\ Cloud\ Free\,\ Cloud\ Clipart\,\ Cloud\,\ Cartoon\ Cloud\ PNG\ Image\ For\ Free\ Download.jpg); 
+    background-size: 200px 200px;
+    background-position:top bottom left;
+    animation: ani 5s infinite;
+}
+@keyframes ani{
+    50%{
+        background-position: center;
+    }
+}
+
+.divv{
+    max-width: 470px;
+    background: rgb(34,193,195);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(201,70,252,1) 98%);
+    text-align: center;
+    color: white;
+    margin: 50px auto 0;
+    padding: 40px 35px;
+    border-radius: 22px;
+}
+.search{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0px;
+    border-bottom: 4px solid black;
+    outline: 0px;
+    border-radius: 10px;
+    flex: 1;
+    height: 40px;
+    padding: 10px 25px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #ebfffc;
+}
+.search button{
+    border: 0px;
+    outline: 0px;
+    border-radius: 100px;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 30px;
+    width: 160px;
+}
+.weather h2{
+    font-size:50px;
+    font-weight: 200;
+}
+.weather h3{
+    font-size:30px;
+    font-weight: 200;
+    margin-top: -10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 0px 10px;
+}
+.col1{
+    align-items: center;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.wind p{
+   font-size: 26px;
+   margin-top: -6px;
+}
+.search button:hover{
+    background-color: blue;
+}
+.error{
+    text-align: left;
+    margin: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+}
